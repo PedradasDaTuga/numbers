@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FirstSpecification" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-12-09T18:52:34" hostname="LAPTOP-VE01Q4MU" time="0.012">
+  <properties/>
+  <testcase name="Should verify notify was called" classname="FirstSpecification" time="0.012">
+    <failure message="groovy.lang.MissingPropertyException: No such property: Notifier for class: FirstSpecification" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: Notifier for class: FirstSpecification
+	at FirstSpecification.Should verify notify was called(FirstSpecification.groovy:61)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

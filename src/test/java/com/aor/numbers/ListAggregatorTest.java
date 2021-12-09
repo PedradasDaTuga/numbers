@@ -78,11 +78,11 @@ public class ListAggregatorTest {
         ListAggregator aggregator = new ListAggregator();
         sorter=new ListSorter();
       //  sorter.sort(1,2,4,2,5);
+
         ListDeduplicator deduplicator = new ListDeduplicator(new ListSorter());
         int distinct = aggregator.distinct(list,deduplicator);
 
         Assertions.assertEquals(4, distinct);
-        Assertions.assertEquals(4, 4);
     }
 
     @Test
