@@ -97,6 +97,6 @@ public class ListAggregatorTest {
         int distinct = aggregator.distinct(Arrays.asList(1, 2, 4, 2),deduplicator);
 
         Assertions.assertEquals(3, distinct);
-      //  Assertions.assertEquals(3, 3);
+
     }
 }

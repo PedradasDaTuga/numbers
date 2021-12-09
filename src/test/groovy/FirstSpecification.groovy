@@ -1,6 +1,6 @@
 import com.aor.numbers.GenericListDeduplicator
 import spock.lang.Specification
-import java.lang.Notifier
+
 class FirstSpecification extends Specification {
     def "one plus one should equal two"() {
         expect:
